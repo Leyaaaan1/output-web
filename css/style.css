@@ -16,25 +16,7 @@
     padding-bottom: env(safe-area-inset-bottom, 0px)
 }
 
-@media (prefers-color-scheme:dark) {
-    :root:not([data-theme="light"]) {
-        --bg: #0e1623;
-        --card: #17233a;
-        --ink: #eef2f7;
-        --muted: #b4bfcd;
-        --line: #2c3a52;
-        color-scheme: dark
-    }
-}
 
-:root[data-theme="dark"] {
-    --bg: #0e1623;
-    --card: #17233a;
-    --ink: #eef2f7;
-    --muted: #b4bfcd;
-    --line: #2c3a52;
-    color-scheme: dark
-}
 
 *,
 *::before,
