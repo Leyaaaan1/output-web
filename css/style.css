@@ -1350,3 +1350,28 @@ nav a.active:not(.call) {
     height: 1px;
     overflow: hidden
 }
+
+/* ===== Let's Move merged with the buyer/seller steps ===== */
+#move .path {
+    background: var(--card)
+}
+
+.path>p {
+    margin: 0 0 24px
+}
+
+/* keeps the section rhythm now that How It Works is gone */
+#reviews {
+    background: var(--card)
+}
+
+#reviews .review {
+    background: var(--bg)
+}
+
+/* About checklist now sits right under the heading */
+.about .checks {
+    margin-top: 12px;
+    gap: 14px;
+    font-size: 1.05rem
+}
